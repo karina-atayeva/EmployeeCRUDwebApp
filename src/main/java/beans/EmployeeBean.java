@@ -7,13 +7,6 @@ import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import java.util.List;
 
-/**
- * Created with IntelliJ IDEA.
- * User: Karina
- * Date: 13.16.9
- * Time: 01:19
- * To change this template use File | Settings | File Templates.
- */
 @Stateless(name = "EmployeeEJB")
 public class EmployeeBean implements EmployeeBeanInterface {
     @PersistenceContext

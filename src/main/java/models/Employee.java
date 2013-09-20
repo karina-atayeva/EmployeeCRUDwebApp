@@ -3,13 +3,6 @@ package models;
 import javax.persistence.*;
 import java.io.Serializable;
 
-/**
- * Created with IntelliJ IDEA.
- * User: Karina
- * Date: 13.16.9
- * Time: 00:42
- * To change this template use File | Settings | File Templates.
- */
 @Entity
 @Table(name="EMPLOYEE")
 @NamedQueries(@NamedQuery(name="Employee.getAll", query="SELECT employee FROM Employee employee"))

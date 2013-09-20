@@ -29,7 +29,6 @@
             <td colspan="2">
                 <input type="submit" name="action" value="Add"/>
                 <input type="submit" name="action" value="GetByID"/>
-                <input type="submit" name="action" value="View"/>
                 <input type="submit" name="action" value="Edit"/>
                 <input type="submit" name="action" value="Delete"/>
             </td>

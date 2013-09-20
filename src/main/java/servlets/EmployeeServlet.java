@@ -11,13 +11,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-/**
- * Created with IntelliJ IDEA.
- * User: Karina
- * Date: 13.16.9
- * Time: 14:23
- * To change this template use File | Settings | File Templates.
- */
 @WebServlet(name = "EmployeeServlet", urlPatterns = "/EmployeeServlet")
 public class EmployeeServlet extends HttpServlet {
 
@@ -41,7 +34,7 @@ public class EmployeeServlet extends HttpServlet {
         }else if("Edit".equalsIgnoreCase(action)){
             employeeBeanInterface.editEmployee(employee);
         }else if("Delete".equalsIgnoreCase(action)){
-                    employeeBeanInterface.deleteEmployee(employeeId);
+            employeeBeanInterface.deleteEmployee(employeeId);
         }else if("GetByID".equalsIgnoreCase(action)){
             employee = employeeBeanInterface.getEmployeeById(employeeId);
         }
